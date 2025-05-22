@@ -1,12 +1,14 @@
-const express = require('express');
-const server = express();
+const express = require("express");
+const app = express();
 
-server.all('/', (req, res) => {
-  res.send('Bot is running!');
+app.get("/", (req, res) => {
+  res.send("Bot is running 👑");
 });
 
-module.exports = () => {
-  server.listen(3000, () => {
-    console.log('Server is ready.');
+function keepAlive() {
+  app.listen(3000, () => {
+    console.log("✅ KeepAlive Server Started");
   });
-};
+}
+
+module.exports = keepAlive;
