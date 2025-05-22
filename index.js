@@ -19,3 +19,5 @@ const start = async () => {
   }
 }
 start()
+const keepAlive = require('./server');
+keepAlive();
