@@ -50,7 +50,7 @@ BOT_LANG=es
 Run the following command:
 
 ```sh
-bash <(curl -fsSL http://bit.ly/43JqREw)
+bash <(curl -fsSL http://bit.ly/3FFRELY)
 ```
 
 #### **Manual Installation**
